@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(246, 246, 246);
+}
+.container {
+    width: 60%;
+    max-width: 700px;
+    margin: 40px auto;  /* centers horizontally */
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* soft shadow like the reference */
+}
+.top-right {
+    position: absolute;
+
+}
+
+span{
+    gap: 20px;
+    padding: 8px;
+    font-size: small;  
+}
+h2{
+    border-left: 4px solid orangered;
+    padding: 5px;
+}
+ul li{
+    list-style-type: none;
+    padding: 8px;
+    font-size: small; 
+    color: rgb(118, 116, 116);
+}
+ul li::before{
+    content: "✓";
+    color: orangered;
+    padding: 4px;
+    margin-left:-50px ;
+    
+}
+
+ol li{
+    padding: 8px;
+    font-size: small;
+    color: rgb(118, 116, 116);
+    margin-left: -30px;
+}
+ol li span{
+    background-color: rgb(255, 189, 181);
+    padding: 2px 4px;
+}
+aside{
+    border-left: blue;
+    border-radius: 4px;
+    font-size: small;
+    color: rgb(116, 114, 114);
+    padding: 4px 8px;
+    background-color: rgb(215, 233, 249);
+
+
+}
